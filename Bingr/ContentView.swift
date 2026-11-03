@@ -10,17 +10,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView{
-            Tab("Home", systemImage: "house"){
-                Text("Home")
+            Tab(Constants.homeString, systemImage: Constants.homeIconString){
+                Text(Constants.homeString)
             }
-            Tab("Upcoming", systemImage: "play.circle"){
-                Text("Home")
+            Tab(Constants.upcomingString, systemImage: Constants.upcomingIconString){
+                Text(Constants.upcomingString)
             }
-            Tab("Search", systemImage: "magnifyingglass"){
-                Text("Home")
+            Tab(Constants.searchString, systemImage: Constants.searchIconString){
+                Text(Constants.searchString)
             }
-            Tab("Download", systemImage: "arrow.down.to.line"){
-                Text("Home")
+            Tab(Constants.downloadString, systemImage: Constants.downloadIconString){
+                Text(Constants.downloadString)
             }
         }
     }

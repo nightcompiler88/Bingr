@@ -14,6 +14,7 @@ struct Constants {
     static let searchString = "Search"
     static let downloadString = "Download"
     static let playString = "Play"
+    static let trendingMoviesString = "Trending Movies"
     
     static let homeIconString = "house"
     static let upcomingIconString = "play.circle"
@@ -21,6 +22,8 @@ struct Constants {
     static let downloadIconString = "arrow.down.to.line"
     
     static let testTitleURL = "https://www.themoviedb.org/t/p/w1280/pKHeSpUfl4ff9wYIr0OMyZWBiQn.jpg"
+    static let tesTitleURL2 = "https://www.themoviedb.org/t/p/w1280/i7UyjfPio0VFHB9rBUZSFyhOoM8.jpg"
+    static let tesTitleURL3 = "https://www.themoviedb.org/t/p/w1280/3x6c9ybt0762idyzIifUZeTD5MZ.jpg"
 }
 
 extension Text {

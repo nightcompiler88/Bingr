@@ -21,7 +21,7 @@ struct DataFetcher {
         
         guard let fetchTitlesURL = URL(string: baseURL)?
             .appending(path: "3/trending/\(media)/day")
-            .appending(querryItems: [
+            .appending(queryItems: [
                 URLQueryItem(name: "api_key", value: apiKey)
             ]) else {
             throw NetworkError.urlBuildFailed
@@ -29,7 +29,7 @@ struct DataFetcher {
         
         print(fetchTitlesURL)
         
-        let(data,URLResponse) = try await URLSession.shared.data(for: fetchTitlesURL)
+        let(data,URLResponse) = try await URLSession.shared.data(from: fetchTitlesURL)
         
         guard let response = URLResponse as? HTTPURLResponse, response.statusCode == 200 else {
             throw NetworkError.badURLResponse(underlyingError: NSError(

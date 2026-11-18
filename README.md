@@ -68,3 +68,9 @@ Bingr
 │
 └── Constants.swift             Strings, SF Symbol names, shared view modifiers
 ```
+
+## Acknowledgements
+ 
+- This is a follow-along from [freeCodeCamp.org and Blossom Build](https://www.youtube.com/watch?v=-VC3hIEL7eQB)
+- Movie and TV metadata and images provided by [TMDB](https://www.themoviedb.org/). This product uses the TMDB API but is not endorsed or certified by TMDB.
+- Trailers served through [YouTube](https://www.youtube.com/).
